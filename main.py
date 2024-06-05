@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from api import main_router
-from api.item import item_router
+from view import main_router
+from view.item.item import item_router
 
 app = FastAPI()
 
